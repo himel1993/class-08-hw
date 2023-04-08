@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* HEADER STARTS HERE */
+header {
+  background-color: #227c10;
+  color: rgb(233, 218, 218);
+  padding: 18px 0;
+}
+
+header .row {
+  justify-content: space-between;
+}
+
+
+
+/* HEADER STARTS HERE */
+
+
+/* *NAVBAR STARTS HERE */
+nav .logo{
+    width: 30%;
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu li{
+    display: inline-block;
+}
+
+nav .menu li a{
+    display: block;
+    font-weight: 600;
+    color: #d31746;
+    padding: 50px 12px;
+    transition: 0.3s;
+}
+
+nav .menu li:hover a{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+
+
+
+nav .menu ul li span{
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius:100%;
+    color: #bbb;
+    cursor:pointer;
+}
+
+
+
+/* *NAVBAR STARTS HERE */
